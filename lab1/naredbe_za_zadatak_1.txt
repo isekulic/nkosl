@@ -1,0 +1,12 @@
+dd - kopira iz jedne datoeke u drugu bytove
+mkfs - make file system - zapiše superblock negdje
+dumpe2fs - ispisuje info o ext file sustavu
+tune2fs - možemo mijenjati file
+
+informacijski sustav uvijek drži kopije superblokova
+
+dumpe2fs /dev/sda5 - jedna logička particija (boot na mtreba) | grep -i superblock
+
+fsck - za popravljanje file systema
+mount - uključuje particiju negdje u hirerarhiju  (npr uključimo neki iso file - ziher)
+umount - može failat ako neki proces koristi particiju 
